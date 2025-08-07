@@ -2,7 +2,6 @@ resource "kubernetes_pod" "test" {
   metadata {
     name = "terraform-example"
   }
-# Cp,,emt
 
   spec {
     container {
